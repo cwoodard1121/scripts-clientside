@@ -28,7 +28,7 @@ public class ScriptActionCheckOrders extends ScriptAction {
             @Override
             public void run() {
                 try {
-                    URL url = new URL("https://dizmac.xyz/api/v1/order/newOrder?key=ef91309da1fbac85d6792c3bde11dfdd");
+                    URL url = new URL("https://dizmac.xyz/api/v1/order/newOrder?key=redacted");
                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                     StringBuilder b = new StringBuilder();
                     BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
